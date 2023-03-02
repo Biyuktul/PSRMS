@@ -1,0 +1,22 @@
+*:not(iframe, canvas, img, svg, video):not(svg *) {    
+    all: unset;    
+    display: revert;
+}
+
+.side-bar {
+    display: grid;
+    height: 705px;
+    width: 90px;
+    justify-content: center;
+    box-shadow: -1px -1px 5px rgb(158, 156, 156) inset;
+    position: fixed;
+	z-index: 1000;
+}
+
+.sidebar-items {
+    display: grid;
+    grid-template-rows: 0.7fr 0.5fr 0.5fr 2fr 0.3fr ;
+    margin-top: 20px;
+    list-style: none;
+    justify-items: center;
+}

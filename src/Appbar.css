@@ -1,0 +1,35 @@
+*:not(iframe, canvas, img, svg, video):not(svg *) {    
+    all: unset;    
+    display: revert;
+}
+
+/* navbar section */
+.navbar{
+    display: grid;
+    list-style: none;
+    align-items: center;
+    grid-auto-flow: column;
+    font-size: 25px;
+    height: 80px;
+    width: 100%;
+    grid-template-columns: 3fr 2fr;
+    box-shadow: 1px 1px 5px rgb(165, 165, 165);
+}
+
+.navbar h2 {
+    margin-left: 50px;
+}
+
+
+.navbar-items{
+    display: grid;
+    list-style: none;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 2fr 2.5fr 2fr;
+    color: rgb(26, 27, 27);
+}
+
+.navbar-items > li {
+    padding-left: 15px;
+    padding-right: 15px;
+}

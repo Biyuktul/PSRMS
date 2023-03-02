@@ -1,0 +1,15 @@
+.main-section {
+    border: 1px solid red;
+    height: 100vh;
+    margin-left: 90px;
+    background-color: #EDF1D6;
+}
+
+.card-container {
+    margin: 50px 50px 0px 50px;
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    /* margin-left: 10px; */
+}
