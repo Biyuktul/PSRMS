@@ -1,9 +1,12 @@
-import Card from './Card';
+import Content from './Content';
+import SideBar from './SideBar';
+import '../styles/Main.css';
 
 function Main() {
     return (
         <div className='main-section'>
-            <Card />
+            <SideBar />
+            <Content />
         </div>
     );
 }

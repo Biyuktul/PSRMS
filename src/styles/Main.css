@@ -1,8 +1,7 @@
 .main-section {
     border: 1px solid red;
-    height: 100vh;
-    margin-left: 90px;
-    background-color: #EDF1D6;
+    background-color: #d4f710;
+    display: flex;
 }
 
 .card-container {
@@ -11,5 +10,4 @@
     width: 200px;
     height: 200px;
     background-color: white;
-    /* margin-left: 10px; */
 }

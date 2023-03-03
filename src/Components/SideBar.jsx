@@ -5,7 +5,7 @@ import {
     RiDashboardFill,
     RiSettings5Fill
 } from "react-icons/ri";
-import '../Sidebar.css';
+import '../styles/Sidebar.css';
 
 function SideBar() {
     return (
