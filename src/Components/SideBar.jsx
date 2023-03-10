@@ -11,23 +11,23 @@ function SideBar() {
     return (
         <div class='side-bar'>
             <ul className="sidebar-items">
-                <li>
-                    <BsCircle color='black' size={65}/>
+                <li className="logo-item">
+                    <BsCircle color='#EDF1D6' size={65}/>
                 </li>
                 <li>
-                    <RiDashboardFill color='black' size={35}/>
+                    <RiDashboardFill color='#EDF1D6' size={35}/>
                 </li>
                 <li>
-                    <MdDocumentScanner color='black' size={35}/>
+                    <MdDocumentScanner color='#EDF1D6' size={35}/>
+                </li>
+                <li className="group-item">
+                    <MdGroups color='#EDF1D6' size={35}/>
                 </li>
                 <li>
-                    <MdGroups color='black' size={35}/>
+                    <RiSettings5Fill color='#EDF1D6' size={35}/>
                 </li>
                 <li>
-                    <RiSettings5Fill color='black' size={35}/>
-                </li>
-                <li>
-                    <RiLogoutBoxLine color='black' size={35}/>
+                    <RiLogoutBoxLine color='#EDF1D6' size={35}/>
                 </li>
             </ul>
         </div>

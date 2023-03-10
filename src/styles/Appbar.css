@@ -14,10 +14,13 @@
     width: 100%;
     grid-template-columns: 3fr 2fr;
     box-shadow: 1px 1px 5px rgb(165, 165, 165);
+    background-color: #343449;
+    background: linear-gradient(0.25turn, #1d1d2c, #303049, #372452);
 }
 
 .navbar h2 {
-    margin-left: 50px;
+    margin-left: 100px;
+    color: #EDF1D6;
 }
 
 
@@ -26,10 +29,29 @@
     list-style: none;
     align-items: center;
     grid-template-columns: 1fr 1fr 2fr 2.5fr 2fr;
-    color: rgb(26, 27, 27);
+    color: #EDF1D6;
 }
 
-.navbar-items > li {
-    padding-left: 15px;
-    padding-right: 15px;
+.navbar-items li {
+    width:fit-content;
+    transition: transform 0.5s;
+}
+
+.navbar-items li:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 12px 2px #2a1746;
+}
+
+.photo-item {
+    pointer-events: none;
+}
+
+.photo-item img {
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:50%;
+    position:absolute;
+    right: 85px;
+    top: 4px;
 }

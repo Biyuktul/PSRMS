@@ -1,4 +1,5 @@
 import '../styles/Appbar.css';
+import profile from '../assets/images/profile.png';
 import { 
     FaBell,
     FaSearch
@@ -13,17 +14,18 @@ function AppBar() {
             <h2>Overview</h2>
             <ul className="navbar-items">
                 <li>
-                    <FaSearch color='black' size={25}/>
+                    <FaSearch color='#EDF1D6' size={25}/>
                 </li>
                 <li>
-                    <FaBell color='black' size={25}/>
+                    <FaBell color='#EDF1D6' size={25}/>
                 </li>
                 <li>
-                    <RiMailOpenFill color='black' size={25}/>
+                    <RiMailOpenFill color='#EDF1D6' size={25}/>
                 </li>
                 <h3>Yonatan Addis</h3>
-                <li>
-                    <BsCircle color='black' size={65}/>
+                <li className='photo-item'>
+                    <BsCircle size={65}/>
+                    <img src={profile} alt="profile image" />
                 </li>
             </ul>
         </div>
